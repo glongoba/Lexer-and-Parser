@@ -1,7 +1,6 @@
-**mini shell in c**
+**Lexer & Parser in c**
 
-I'm trying to realize a mini shell in programming language c.
-I'll use this section as a way to check my progress.
+I implemented this two functions, that are the basis of a shell unix like.
 
-- I've realized a way to read a line (it will be the command) and a lexer function.
-- I've realized a parser.
+**Lexer** -> it takes a line and divides it in token (each token is a word) without checking syntax or position errors.
+**Parser** -> It divides and groups token in commands.
